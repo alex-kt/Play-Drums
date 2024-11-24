@@ -1,0 +1,101 @@
+body {
+  background-image: url(images/show-picture.webp);
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+#keys {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.key {
+  height: 90px;
+  border: solid 3px white;
+  border-radius: 50px;
+  flex: 1 1 25%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.key:hover {
+  border-color: gold;
+  color: gold;
+}
+
+.keyq:hover,
+.keyw:hover,
+.keye:hover {
+  color: white;
+}
+
+#composer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.input {
+  margin-top: 10px;
+  flex: 1 100%;
+  padding: 10px;
+  font-size: 20px;
+  color: gold;
+}
+
+.play {
+  margin-top: 5px;
+  flex: 1;
+  border: solid 3px white;
+  background: grey;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.play:hover {
+  border-color: gold;
+  color: gold;
+  cursor: pointer;
+}
+
+.play:active {
+  background-color: white;
+}
+
+.keye,
+.keyw,
+.keyq {
+  background-color: gold;
+}
+
+.keyc,
+.keyx,
+.keyz {
+  background-color: rgb(165, 75, 42);
+  border-color: white;
+  color: black;
+}
+
+.keya,
+.keys,
+.keyd {
+  background-color: grey;
+  color: white;
+  border-color: rgb(108, 107, 107);
+}
