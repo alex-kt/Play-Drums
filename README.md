@@ -1,1 +1,1 @@
-You can try here: https://alex-kt.github.io/Play-Drums/
+You can try it here: https://alex-kt.github.io/Play-Drums/
